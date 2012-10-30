@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'therubyracer'
 gem 'i18n'
+gem 'mysql2'
+
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -10,15 +12,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-group :production do
-  gem 'mysql2'
-end
-
 gem 'jquery-rails'
 gem 'capistrano'
 
 group :development do
-  gem 'sqlite3'
   gem 'rspec'
   gem 'rspec-rails'
   gem 'capistrano_colors'

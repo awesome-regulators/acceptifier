@@ -1,0 +1,7 @@
+EPIC: As a product owner ISBAT receive SMS notification when a story is ready for acceptance so that I can accept the story ASAP
+
+As a user ISBAT specify a project to watch
+As a user ISBAT see a list of stories that are not accepted and in an iteration
+As a user ISBAT know when a story changes to the completed state
+As a user ISBAT define the SMS phone number where I should receive notifications
+As a product owner ISBAT receive an SMS when a story changes to the completed state

@@ -22,14 +22,14 @@ role :db,  "acceptifier.integrumdemo.com", :primary => true # This is where Rail
 
 # if you want to clean up old releases on each deploy uncomment this:
 after "deploy:restart", "deploy:cleanup"
+after "deploy:update_code", "deploy:symlinks"
 after "deploy:update_code", "deploy:migrate"
 after "deploy:update_code", "deploy:precompile_assets"
-after "deploy:update_code", "deploy:symlinks"
 
 namespace :deploy do
   task :start do ; end
   task :stop do ; end
-  task :restart, :roles => :app, :except => { :no_release => true } do
+  task :restart, :roles => :web, :except => { :no_release => true } do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
   end
   desc "precompile the assets"
@@ -39,7 +39,7 @@ namespace :deploy do
   end
   desc "Create symlinks"
   task :symlinks, :roles => :web, :except => {:no_release => true} do
-    run "ln -nfs #{release_path}/config/database.yml #{shared_path}/config/database.yml"
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
 end
 

@@ -2,7 +2,6 @@ Acceptifier::Application.routes.draw do
   get "home/show"
   root :to => "home#show"
 
-
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -1,0 +1,7 @@
+Nov 5th
+Read: 
+  * http://www.infoq.com/articles/rest-introduction
+  * http://guides.rubyonrails.org/routing.html
+
+Watch:
+  * http://bitworking.org/news/373/An-Introduction-to-REST

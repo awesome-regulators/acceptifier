@@ -4,6 +4,7 @@ gem 'rails', '3.2.8'
 gem 'therubyracer'
 gem 'i18n'
 gem 'mysql2'
+gem 'rally_rest_api'
 
 
 group :assets do

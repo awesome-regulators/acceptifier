@@ -3,7 +3,6 @@ require 'bundler/capistrano'
 
 set :application, "acceptifier"
 set :repository,  "git@github.com:awesome-regulators/acceptifier.git"
-set :branch, 'deploy'
 
 set :use_sudo, false
 

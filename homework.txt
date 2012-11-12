@@ -1,7 +1,23 @@
+===============
+Nov 12th
+===============
+Read:
+  * https://github.com/twilio/twilio-ruby
+  
+Interactive:
+  * http://tryruby.org/levels/1/challenges/0
+  * http://railsforzombies.org/levels/1
+
+Watch
+  * http://rubyonrails.org/screencasts/rails3/active-relation-active-model
+
+===============
 Nov 5th
+===============
 Read: 
   * http://www.infoq.com/articles/rest-introduction
   * http://guides.rubyonrails.org/routing.html
 
 Watch:
   * http://bitworking.org/news/373/An-Introduction-to-REST
+

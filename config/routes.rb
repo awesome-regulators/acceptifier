@@ -1,4 +1,6 @@
 Acceptifier::Application.routes.draw do
+  resources :projects
+
   get "home/show"
   root :to => "home#show"
 
